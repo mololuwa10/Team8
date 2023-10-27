@@ -37,25 +37,17 @@ const Header = () => {
             <div className="flex items-center">
               <Link href="/" className="ml-4 lg:ml-0">
                 <h1 className="text-xl font-bold white-text">
-                  CRAFT COLLABORATIONS
+                  MAKE A WISH
                 </h1>
               </Link>
-            </div>
-            <nav className="mx-6 flex items-center space-x-4 lg:space-x-6 hidden md:block white-text">
-              {routes.map((route, i) => (
-                // eslint-disable-next-line react/jsx-key
+
+              <nav className=" white-text">
                 <Button asChild variant={"ghost"}>
-                  <Link 
-                  key={i}
-                  href={route.href}
-                  className="text-sm font-medium transition-colors"
-                  >
-                    {route.label}
-                    </Link>
+                  Home
                 </Button>
-              ))}
             </nav>
-            <div className="flex items-center">
+            </div>
+            {/* <div className="flex items-center">
               <Button variant={"ghost"} size={"icon"}
               className="mr-2" aria-label="Shopping Cart">
                 <ShoppingCart className="h-6 w-6" />
@@ -73,7 +65,7 @@ const Header = () => {
                 <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:-rotate-0 dark:scale-100"/>
                 <span className="sr-only">Toggle Theme</span>
               </Button>
-            </div>
+            </div> */}
           </div>
         </Container>
       </header>

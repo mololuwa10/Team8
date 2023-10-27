@@ -1,5 +1,6 @@
+"use client"
+import Image from "next/image"
 import { BellRing, Check } from "lucide-react"
-
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import {
@@ -11,8 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { useEffect, useState } from "react";
-
-import { Switch } from "@/components/ui/switch"
+import Link from "next/link"
 
 const notifications = [
   {

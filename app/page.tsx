@@ -1,5 +1,3 @@
-"use client"
-
 import { CardDemo } from "@/components/CardDemo";
 import Header from "@/components/Header";
 import {Button} from "@/components/ui/button"
@@ -16,15 +14,6 @@ export default function Home() {
     <div>
       <CardDemo />
     </div>
-    {
-      weatherInfo && weatherInfo.length && weatherInfo.map((item:any) => {
-        return(
-          <>
-            <h4 key={item.name}></h4>
-          </>
-        )
-      })
-    }
   </>
   )
 }
