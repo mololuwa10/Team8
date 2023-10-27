@@ -1,0 +1,6 @@
+Lucide react for multiple icons
+- run npm i lucide-react@0.263.1 in terminal 
+- Website to view icons - https://lucide.dev/
+
+To run the code in browser 
+- npm run dev
